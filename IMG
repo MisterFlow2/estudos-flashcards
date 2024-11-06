@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lista de Livros</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Livros Recomendados</h1>
+  </header>
+
+  <main>
+    <section class="book-list">
+      <article class="book-card">
+        <img class="book-image" src="https://via.placeholder.com/150x220" alt="Capa do livro 1" />
+        <h2>Livro 1</h2>
+        <p>Autor: Autor 1</p>
+        <p class="description">Descrição breve do livro 1.</p>
+      </article>
+
+      <article class="book-card">
+        <img class="book-image" src="https://via.placeholder.com/150x220" alt="Capa do livro 2" />
+        <h2>Livro 2</h2>
+        <p>Autor: Autor 2</p>
+        <p class="description">Descrição breve do livro 2.</p>
+      </article>
+
+      <article class="book-card">
+        <img class="book-image" src="https://via.placeholder.com/150x220" alt="Capa do livro 3" />
+        <h2>Livro 3</h2>
+        <p>Autor: Autor 3</p>
+        <p class="description">Descrição breve do livro 3.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2024 - Lista de Livros</p>
+  </footer>
+</body>
+</html>
